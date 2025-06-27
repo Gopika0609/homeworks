@@ -1,0 +1,32 @@
+package org.add;
+
+public class GreensTech {
+	public  void greensOmr() {
+		System.out.println("omr");
+		
+	}
+	public  void greensAdayar() {
+		System.out.println("Adyar");
+		
+	}
+	public  void greensTambaram() {
+		System.out.println("Tambaram");
+	}
+	public  void greensVelacherry() {
+		System.out.println("Velacherry");
+	}
+	public  void greensAnnaNagar(){
+		System.out.println("AnnaNagar");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Branches");
+GreensTech Branches = new GreensTech();
+Branches.greensAdayar();
+Branches.greensAnnaNagar();
+Branches.greensOmr();
+Branches.greensTambaram();
+Branches.greensVelacherry();
+	}
+}

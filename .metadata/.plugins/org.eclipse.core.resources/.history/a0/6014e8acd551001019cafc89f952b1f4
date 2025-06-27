@@ -1,0 +1,26 @@
+package org.test;
+
+public class HelloWorld {
+	public void methodA() {
+		// TODO Auto-generated method stub
+		System.out.println("gopika");
+	}
+	public void methodB()
+	{
+		System.out.println("yura");
+	}	
+	public void methodC() 
+	{
+		System.out.println("priya");
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("my friends");
+		HelloWorld names = new Helloworld();
+		names.methodA();
+		names.methodB();
+		names.methodC();
+		
+	}
+
+	}

@@ -1,0 +1,34 @@
+package org.emp;
+
+public class Employee {
+	public void empId() {
+		System.out.println("enter emp id");
+	}
+public void empName() {
+	System.out.println("enter employee name");
+}
+public void empDob() {
+	System.out.println("enter employee name");
+}
+public void empPhone() {
+	System.out.println("enter employee phone");
+	}
+public void empEmail() {
+	System.out.println("enter employee email");
+}
+public void empAddress() {
+	System.out.println("enter employee email");
+}
+	public static void main(String[] args) {
+		System.out.println("enter employee details");
+		Employee details = new Employee ();
+		details.empAddress();
+		details.empDob();
+		details.empEmail();
+		details.empId();
+		details.empName();
+		details.empPhone();
+
+	}
+
+}
